@@ -8,7 +8,12 @@ namespace SVT_Robotics_Recruiting_Assessment.Controllers
     [ApiController]
     public class RobotsController : ControllerBase
     {
-        // POST api/<RobotsController>
+        // POST api/robots/closest
+        /// <summary>
+        /// API for finding the robot closest to the load.
+        /// </summary>
+        /// <param name="load">The load to find the closest robot for.</param>
+        /// <returns>The robot closest to the load.</returns>
         [HttpPost]
         public async Task<ClosestRobotResponse> Post([FromBody] Load load)
         {

@@ -1,5 +1,8 @@
 ﻿namespace SVT_Robotics_Recruiting_Assessment
 {
+    /// <summary>
+    /// The API web response for finding the closest robot.
+    /// </summary>
     public class ClosestRobotResponse
     {
         public string RobotId { get; set; }

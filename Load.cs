@@ -13,6 +13,12 @@ namespace SVT_Robotics_Recruiting_Assessment
         [JsonPropertyName("loadId")]
         public string LoadId { get; set; }
 
+        /// <summary>
+        /// Create a load.
+        /// </summary>
+        /// <param name="x">The load's x-coordinate.</param>
+        /// <param name="y">The load's y-coordinate.</param>
+        /// <param name="loadId">The ID of the load.</param>
         [JsonConstructor]
         public Load(int x, int y, string loadId) : base(x, y)
         {

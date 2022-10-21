@@ -13,6 +13,13 @@ namespace SVT_Robotics_Recruiting_Assessment
         [JsonIgnore]
         public double DistanceToLoad { get; set; }
 
+        /// <summary>
+        /// Create a robot.
+        /// </summary>
+        /// <param name="x">The x-coordinate of the robot.</param>
+        /// <param name="y">The y-coordinate of the robot.</param>
+        /// <param name="robotId">The ID of the robot.</param>
+        /// <param name="batteryLevel">The battery level of the robot.</param>
         public Robot(int x, int y, string robotId, int batteryLevel) : base(x, y)
         {
             DistanceToLoad = double.MaxValue;
