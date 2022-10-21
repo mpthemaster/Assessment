@@ -1,5 +1,5 @@
 # Assessment
- A simple JSON API for finding the closest robot to move a pallet or load.
+ A simple JSON API that calculates which robot should transport a pallet from point A to point B based on which robot is the closest and has the most battery left if there are multiple in the proximity of the load's location.
 <hr/>
 
 # Instructions to Run
