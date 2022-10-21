@@ -24,10 +24,16 @@ Then click on this "Try it out" button to modify the request body and send some 
 
 
 <hr />
+
 # Expected JSON Request and Response Format
-**Note: The loadId and robotId are actually strings. I changed this to match the Robot Fleet API's response (https://60c8ed887dafc90017ffbd56.mockapi.io/robots). Maybe IDs can start with '0's, which converting to number data types would remove any leading zeros and cause bugs**
+
+### Note: The loadId and robotId are actually strings. I changed this to match the Robot Fleet API's response (https://60c8ed887dafc90017ffbd56.mockapi.io/robots). Maybe IDs can start with '0's, which converting to number data types would remove any leading zeros and cause bugs**
+
 ![image](https://user-images.githubusercontent.com/1058149/197288651-ace631a1-63ca-4146-b34c-7952eb66654a.png)
 
 
 <hr/>
+
 # Next Steps
+
+
